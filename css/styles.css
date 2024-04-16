@@ -1,0 +1,64 @@
+/*a:link{
+    color: black;
+}*/
+
+*{
+  font-family: 'Kanit', sans-serif;
+  font-size: large;
+  
+}
+
+svg{
+    color: black;
+}
+
+h1 {
+  font-family: 'Signika', sans-serif;
+}
+
+.pic{
+  position: relative;
+}
+
+.picture_main{
+  width: 100vh;
+  position: absolute;
+  left: -50%;
+  bottom: 14%;
+}
+
+.name{
+  font-family: 'Signika', sans-serif;
+  font-size:x-large;
+  font-weight: bolder; 
+  padding: 10px;
+}
+
+.message-top-margin{
+  margin-top: 30px;
+}
+
+.sideIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    padding-left: 15px; 
+  }
+
+  
+  .colors{
+    display: grid;
+    grid-template-columns: 20% 1fr 30%;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+#red{
+  grid-column-start: 0;
+ 
+}
+
+#navbarNavAltMarkup{
+  margin-left: 190px;
+}
