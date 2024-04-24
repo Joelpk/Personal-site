@@ -1,6 +1,6 @@
-/*a:link{
+/* a:link{
     color: black;
-}*/
+} */
 
 *{
   font-family: 'Kanit', sans-serif;
@@ -54,11 +54,19 @@ h1 {
     margin-top: 50px;
   }
 
-#red{
-  grid-column-start: 0;
- 
+/* #navbarNavAltMarkup{
+  padding-left: 610px;
+
+} */
+
+.buttonDiv{
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
 }
 
-#navbarNavAltMarkup{
-  margin-left: 190px;
+.btn-bigger {
+  font-size: 5rem; /* Adjust the font size as needed */
+  padding: 50px 50px; /* Adjust the padding as needed */
+  ;
 }
