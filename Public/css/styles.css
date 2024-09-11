@@ -1,0 +1,107 @@
+/* a:link{
+    color: black;
+} */
+
+*{
+  font-family: 'Kanit', sans-serif;
+  font-size: large;
+  /* padding: 50px; */
+  /* overflow-x: hidden; */
+}
+
+svg{
+    color: black;
+}
+
+h1 {
+  font-family: 'Signika', sans-serif;
+}
+
+nav{
+  position: fixed;
+  /* top: 0; */
+  width: 100%;
+  background-color: #f6f6f6;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around;  */
+}
+
+.pic{
+  position: relative;
+}
+
+.picture_main{
+  width: 100vh;
+  position: absolute;
+  left: -50%;
+  bottom: 14%;
+}
+
+.name{
+  font-family: 'Signika', sans-serif;
+  font-size:x-large;
+  font-weight: bolder; 
+  padding: 10px;
+}
+
+.message-top-margin{
+  margin-top: 30px;
+}
+
+.flexIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    padding-left: 15px; 
+  }
+
+  
+  .grid-hero{
+    display: grid;
+    grid-template-columns: 20% 1fr 30%;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+#navbarNavAltMarkup{
+  padding-left: 750px;
+
+}
+
+.buttonDiv{
+  text-align: center;
+  margin-bottom: 30px;
+  /* padding: 20px; */
+}
+
+.btn-bigger {
+  font-size: 1.5rem !important; /* Adjust the font size as needed */
+  padding: 15px 30px !important; /* Adjust the padding as needed */
+  ;
+  /* width: 100vh; */
+}
+
+.btn-light{
+margin-left: 100px;
+}
+.btn-dark{
+  margin-right: 20px;
+}
+
+footer{
+  background-color: #f6f6f6;
+}
+
+.grid-footer{
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+
+.flexFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

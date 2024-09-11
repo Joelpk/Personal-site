@@ -1,0 +1,38 @@
+<%- include('Partials/header.ejs') %>
+
+<section class="projects-section">
+  <div class="container">
+    <h1 style="text-align: center;" class="page-title">My Projects</h1>
+
+    <div class="project">
+      <h3 class="project-title">Crypto Market API Project</h3>
+      <p class="project-description">This project showcases real-time information about the cryptocurrency market using the Coinlore API.</p>
+      <p>Here is some information gotten from Coinlore
+      </p>
+      
+      <div class="crypto-info">
+        <% if(locals.data && locals.tickersData) { %> 
+          <img width="50" height="20" src="./images/currency-bitcoin.svg" alt="">
+          <p> <strong><%= data.coins_count %></strong> crypto coins available</p>
+
+          <img width="50" height="20" src="./images/bank.svg" alt="">
+          <p class="market-data">There are a total of <strong><%= data.active_markets %></strong> active markets in crypto.</p>
+          <p>Below is the list of top 10 coins in the market</p>
+
+          <ol>
+            <% for (let i = 0; i < tickersData.length; i++) { %>
+              <li>
+                <strong><%= tickersData[i].name %></strong>
+              </li>
+          <% } %>
+          </ol>
+
+        <% } else { %> 
+          <p class="market-data">Loading data from Coinlore API...</p>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include('Partials/footer.ejs') %>
